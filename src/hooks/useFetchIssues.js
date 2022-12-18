@@ -9,7 +9,7 @@ const useFetchIssues = () => {
   const fetchIssues = useCallback(async (owner, repo) => {
     // octokit init
     const octokit = new Octokit({
-      auth: "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",
+      auth: "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",
     });
 
     try {
