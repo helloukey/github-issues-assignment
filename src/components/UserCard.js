@@ -1,5 +1,4 @@
 const UserCard = ({ user, isUser, userId }) => {
-  console.log(user);
   return (
     <div
       className={`bg-gray-800 fixed -translate-y-10 z-10 w-full max-w-xs flex flex-col items-center gap-4 p-8 ${
