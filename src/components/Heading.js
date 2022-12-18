@@ -55,8 +55,13 @@ const Heading = () => {
           value={repoName}
           required
         />
-        <button type="submit" className="btn btn-block">
-          Search
+        <button
+          type="submit"
+          className={`btn btn-block ${
+            loading ? "btn-active pointer-events-none" : ""
+          }`}
+        >
+          {loading ? "Searching..." : "Search"}
         </button>
       </form>
     </header>
